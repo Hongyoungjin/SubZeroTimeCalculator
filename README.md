@@ -13,11 +13,11 @@ Designed to calculate the total hours of sub-zero temperature of the region in i
 
 ## Brief explanation of each code
 1. "Korea_Requests_Jupiter.ipynb" : 
-2. Using "requests" module, the code collects hourly weather data of South Korea, processes the data into the switch's annual operation rate
-3. "Korea_Selenium_Jupiter.ipynb"   : 
-4. Using "Selenium" module, the code collects hourly weather data of South Korea, processes the data into the switch's annual operation rate
-5. "WeatherWorldwide.ipynb"    : 
-6. Using "Selenium" module, the code collects hourly weather data of the global location of interest, processes the data into the switch's annual operation rate
+- Using "requests" module, the code collects hourly weather data of South Korea, processes the data into the switch's annual operation rate
+2. "Korea_Selenium_Jupiter.ipynb"   : 
+- Using "Selenium" module, the code collects hourly weather data of South Korea, processes the data into the switch's annual operation rate
+3. "WeatherWorldwide.ipynb"    : 
+- Using "Selenium" module, the code collects hourly weather data of the global location of interest, processes the data into the switch's annual operation rate
 
 # 2. GraspPointFinder
 Based on the "Force Closure" idea, the algorithm intends to find the optimum grasp point of a virtual 3D object.
@@ -32,11 +32,11 @@ Based on the "Force Closure" idea, the algorithm intends to find the optimum gra
 
 ## Brief explanation of each code
 1. "gws_to_cone.py" : 
-2. From 3D object, makes GWS data, and 3D object attached with friction cones of all possible grasp points
-3. "searchall.py"   : 
-4. Finds the best grasp among all possible grasp candidates - Most accurate, yet takes too much time
-5. "gpsearch.py"    : 
-6. Finds the locally best grasp through regressively updating the grasp  - Quicker, yet less accurate (80% accurray on average)
+- From 3D object, makes GWS data, and 3D object attached with friction cones of all possible grasp points
+2. "searchall.py"   : 
+- Finds the best grasp among all possible grasp candidates - Most accurate, yet takes too much time
+3. "gpsearch.py"    : 
+- Finds the locally best grasp through regressively updating the grasp  - Quicker, yet less accurate (80% accurray on average)
 
 ## How to execute
 ### If you want to find the accurate data taking a lot of time
