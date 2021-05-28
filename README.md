@@ -11,6 +11,11 @@ Designed to calculate the total hours of sub-zero temperature of the region in i
 ## Watch the video
 [![Video Label](http://img.youtube.com/vi/rOdQ9U1Fknk/0.jpg)](https://youtu.be/rOdQ9U1Fknk=0s)
 
+## Brief explanation of each code
+1. "Korea_Requests_Jupiter.ipynb" : Using "requests" module, the code collects hourly weather data of South Korea, processes the data into the switch's annual operation rate
+2. "Korea_Selenium_Jupiter.ipynb"   : Using "Selenium" module, the code collects hourly weather data of South Korea, processes the data into the switch's annual operation rate
+3. "WeatherWorldwide.ipynb"    : Using "Selenium" module, the code collects hourly weather data of the global location of interest, processes the data into the switch's annual operation rate
+
 # 2. GraspPointFinder
 Based on the "Force Closure" idea, the algorithm intends to find the optimum grasp point of a virtual 3D object.
 
